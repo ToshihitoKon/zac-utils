@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h3>zac-utils</h3>
+        
+    <details>
+      <summary>何が悲しくて俺は結局手打ちで値を入れなきゃいけないんだ</summary>
+    <div>
+      <label for="time_in_hour">出勤時</label>
+      <input id="time_in_hour" type="input">
+    </div>
+    <div>
+      <label for="time_in_minute">出勤分</label>
+      <input id="time_in_minute" type="input">
+    </div>
+    <div>
+      <label for="time_out_hour">退勤時</label>
+      <input id="time_out_hour" type="input">
+    </div>
+    <div>
+      <label for="time_out_minute">退勤分</label>
+      <input id="time_out_minute" type="input">
+    </div>
+    <div>
+      <label for="time_break_input_hour">休憩時</label>
+      <input id="time_break_input_hour" type="input">
+    </div>
+    <div>
+      <label for="time_break_input_minute">休憩分</label>
+      <input id="time_break_input_minute" type="input">
+    </div>
+
+    <ul>
+      <li>
+        <div>
+          <label for="id_sagyou_naiyou1">どうせ勤務</label>
+          <input id="id_sagyou_naiyou1" type="input">
+        </div>
+        <div>
+          <label for="time_required_hour1">時</label>
+          <input id="time_required_hour1" type="input">
+        </div>
+        <div>
+          <label for="time_required_minute1">分</label>
+          <input id= type="input">
+        </div>
+        <div>
+          <label for="code_project_combo1">案件名</label>
+          <input id="code_project_combo1" type="input">
+        </div>
+        <div>
+          <label for="code_project1">zac番号</label>
+          <input id="code_project1" type="input">
+        </div>
+      </li>
+    </ul>
+
+    <div>
+      <button id="zac_utils_apply">apply</button>
+    </div>
+    </details>
+
+    <div>
+      <label for="input_json">魔法のjson入力</label>
+      <input id="input_json" type="input">
+    </div>
+    <div>
+      <label for="input_csv">魔法のcsv入力</label>
+      <input id="input_csv" type="input">
+    </div>
+
+    <details>
+      <summary>初期値設定など</summary>
+      <div>
+        <label for="time_in_default">デフォルト出勤時間</label>
+        <input id="time_in_default" type="input">
+      </div>
+      <div>
+        <label for="time_out_default">デフォルト退勤時間</label>
+        <input id="time_out_default" type="input">
+      </div>
+      <div>
+        <label for="time_break_default">デフォルト休憩時間</label>
+        <input id="time_break_default" type="input">
+      </div>
+      <div>
+        <label for="main_sagyou">メイン案件</label>
+        <input id="main_sagyou" type="input">
+      </div>
+    </details>
+    <button>設定画面</button>
+
+  </body>
+  <script src="script.js"></script>
+</html>
+
+
